@@ -1,0 +1,5 @@
+#!/bin/python
+
+with open("example.cimg","wb") as file:
+    file.write(b"lMg")
+    file.write((225).to_bytes(2,"little"))
